@@ -1,0 +1,767 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0638C5182FAAFB3400D58D71 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0638C5172FAAFB3400D58D71 /* WidgetKit.framework */; };
+		0638C51A2FAAFB3400D58D71 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0638C5192FAAFB3400D58D71 /* SwiftUI.framework */; };
+		0638C52B2FAAFB3700D58D71 /* TapSmartWidgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 0638C5152FAAFB3400D58D71 /* TapSmartWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		065A96E12FB4151000A3DB0D /* LinkKit in Frameworks */ = {isa = PBXBuildFile; productRef = 065A96E02FB4151000A3DB0D /* LinkKit */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0638C4B12FA4568100D58D71 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0638C4982FA4567E00D58D71 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0638C49F2FA4567E00D58D71;
+			remoteInfo = TapSmart;
+		};
+		0638C4BB2FA4568100D58D71 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0638C4982FA4567E00D58D71 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0638C49F2FA4567E00D58D71;
+			remoteInfo = TapSmart;
+		};
+		0638C5292FAAFB3700D58D71 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0638C4982FA4567E00D58D71 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0638C5142FAAFB3300D58D71;
+			remoteInfo = TapSmartWidgetExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		0638C5302FAAFB3700D58D71 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				0638C52B2FAAFB3700D58D71 /* TapSmartWidgetExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0638C4A02FA4567E00D58D71 /* TapSmart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TapSmart.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0638C4B02FA4568100D58D71 /* TapSmartTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TapSmartTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0638C4BA2FA4568100D58D71 /* TapSmartUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TapSmartUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0638C5152FAAFB3400D58D71 /* TapSmartWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = TapSmartWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		0638C5172FAAFB3400D58D71 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		0638C5192FAAFB3400D58D71 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		0638C52C2FAAFB3700D58D71 /* Exceptions for "TapSmartWidget" folder in "TapSmartWidgetExtension" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 0638C5142FAAFB3300D58D71 /* TapSmartWidgetExtension */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		0638C4A22FA4567E00D58D71 /* TapSmart */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = TapSmart;
+			sourceTree = "<group>";
+		};
+		0638C4B32FA4568100D58D71 /* TapSmartTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = TapSmartTests;
+			sourceTree = "<group>";
+		};
+		0638C4BD2FA4568100D58D71 /* TapSmartUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = TapSmartUITests;
+			sourceTree = "<group>";
+		};
+		0638C51B2FAAFB3400D58D71 /* TapSmartWidget */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				0638C52C2FAAFB3700D58D71 /* Exceptions for "TapSmartWidget" folder in "TapSmartWidgetExtension" target */,
+			);
+			path = TapSmartWidget;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0638C49D2FA4567E00D58D71 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				065A96E12FB4151000A3DB0D /* LinkKit in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0638C4AD2FA4568100D58D71 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0638C4B72FA4568100D58D71 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0638C5122FAAFB3300D58D71 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0638C51A2FAAFB3400D58D71 /* SwiftUI.framework in Frameworks */,
+				0638C5182FAAFB3400D58D71 /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0638C4972FA4567E00D58D71 = {
+			isa = PBXGroup;
+			children = (
+				0638C4A22FA4567E00D58D71 /* TapSmart */,
+				0638C4B32FA4568100D58D71 /* TapSmartTests */,
+				0638C4BD2FA4568100D58D71 /* TapSmartUITests */,
+				0638C51B2FAAFB3400D58D71 /* TapSmartWidget */,
+				0638C5162FAAFB3400D58D71 /* Frameworks */,
+				0638C4A12FA4567E00D58D71 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0638C4A12FA4567E00D58D71 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0638C4A02FA4567E00D58D71 /* TapSmart.app */,
+				0638C4B02FA4568100D58D71 /* TapSmartTests.xctest */,
+				0638C4BA2FA4568100D58D71 /* TapSmartUITests.xctest */,
+				0638C5152FAAFB3400D58D71 /* TapSmartWidgetExtension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0638C5162FAAFB3400D58D71 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0638C5172FAAFB3400D58D71 /* WidgetKit.framework */,
+				0638C5192FAAFB3400D58D71 /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0638C49F2FA4567E00D58D71 /* TapSmart */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0638C4C42FA4568100D58D71 /* Build configuration list for PBXNativeTarget "TapSmart" */;
+			buildPhases = (
+				0638C49C2FA4567E00D58D71 /* Sources */,
+				0638C49D2FA4567E00D58D71 /* Frameworks */,
+				0638C49E2FA4567E00D58D71 /* Resources */,
+				0638C5302FAAFB3700D58D71 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0638C52A2FAAFB3700D58D71 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				0638C4A22FA4567E00D58D71 /* TapSmart */,
+			);
+			name = TapSmart;
+			packageProductDependencies = (
+				065A96E02FB4151000A3DB0D /* LinkKit */,
+			);
+			productName = TapSmart;
+			productReference = 0638C4A02FA4567E00D58D71 /* TapSmart.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0638C4AF2FA4568100D58D71 /* TapSmartTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0638C4C72FA4568100D58D71 /* Build configuration list for PBXNativeTarget "TapSmartTests" */;
+			buildPhases = (
+				0638C4AC2FA4568100D58D71 /* Sources */,
+				0638C4AD2FA4568100D58D71 /* Frameworks */,
+				0638C4AE2FA4568100D58D71 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0638C4B22FA4568100D58D71 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				0638C4B32FA4568100D58D71 /* TapSmartTests */,
+			);
+			name = TapSmartTests;
+			packageProductDependencies = (
+			);
+			productName = TapSmartTests;
+			productReference = 0638C4B02FA4568100D58D71 /* TapSmartTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0638C4B92FA4568100D58D71 /* TapSmartUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0638C4CA2FA4568100D58D71 /* Build configuration list for PBXNativeTarget "TapSmartUITests" */;
+			buildPhases = (
+				0638C4B62FA4568100D58D71 /* Sources */,
+				0638C4B72FA4568100D58D71 /* Frameworks */,
+				0638C4B82FA4568100D58D71 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0638C4BC2FA4568100D58D71 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				0638C4BD2FA4568100D58D71 /* TapSmartUITests */,
+			);
+			name = TapSmartUITests;
+			packageProductDependencies = (
+			);
+			productName = TapSmartUITests;
+			productReference = 0638C4BA2FA4568100D58D71 /* TapSmartUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		0638C5142FAAFB3300D58D71 /* TapSmartWidgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0638C52D2FAAFB3700D58D71 /* Build configuration list for PBXNativeTarget "TapSmartWidgetExtension" */;
+			buildPhases = (
+				0638C5112FAAFB3300D58D71 /* Sources */,
+				0638C5122FAAFB3300D58D71 /* Frameworks */,
+				0638C5132FAAFB3300D58D71 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				0638C51B2FAAFB3400D58D71 /* TapSmartWidget */,
+			);
+			name = TapSmartWidgetExtension;
+			packageProductDependencies = (
+			);
+			productName = TapSmartWidgetExtension;
+			productReference = 0638C5152FAAFB3400D58D71 /* TapSmartWidgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0638C4982FA4567E00D58D71 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					0638C49F2FA4567E00D58D71 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					0638C4AF2FA4568100D58D71 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 0638C49F2FA4567E00D58D71;
+					};
+					0638C4B92FA4568100D58D71 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 0638C49F2FA4567E00D58D71;
+					};
+					0638C5142FAAFB3300D58D71 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+				};
+			};
+			buildConfigurationList = 0638C49B2FA4567E00D58D71 /* Build configuration list for PBXProject "TapSmart" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0638C4972FA4567E00D58D71;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				065A96DF2FB4151000A3DB0D /* XCRemoteSwiftPackageReference "plaid-link-ios" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 0638C4A12FA4567E00D58D71 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0638C49F2FA4567E00D58D71 /* TapSmart */,
+				0638C4AF2FA4568100D58D71 /* TapSmartTests */,
+				0638C4B92FA4568100D58D71 /* TapSmartUITests */,
+				0638C5142FAAFB3300D58D71 /* TapSmartWidgetExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0638C49E2FA4567E00D58D71 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0638C4AE2FA4568100D58D71 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0638C4B82FA4568100D58D71 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0638C5132FAAFB3300D58D71 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0638C49C2FA4567E00D58D71 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0638C4AC2FA4568100D58D71 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0638C4B62FA4568100D58D71 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0638C5112FAAFB3300D58D71 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0638C4B22FA4568100D58D71 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0638C49F2FA4567E00D58D71 /* TapSmart */;
+			targetProxy = 0638C4B12FA4568100D58D71 /* PBXContainerItemProxy */;
+		};
+		0638C4BC2FA4568100D58D71 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0638C49F2FA4567E00D58D71 /* TapSmart */;
+			targetProxy = 0638C4BB2FA4568100D58D71 /* PBXContainerItemProxy */;
+		};
+		0638C52A2FAAFB3700D58D71 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0638C5142FAAFB3300D58D71 /* TapSmartWidgetExtension */;
+			targetProxy = 0638C5292FAAFB3700D58D71 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0638C4C22FA4568100D58D71 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0638C4C32FA4568100D58D71 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0638C4C52FA4568100D58D71 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = TapSmart/TapSmart.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TapSmart/Preview Content\"";
+				DEVELOPMENT_TEAM = 2TW47NYAKG;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.prishabhanushali.tapsmart.TapSmart;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0638C4C62FA4568100D58D71 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = TapSmart/TapSmart.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TapSmart/Preview Content\"";
+				DEVELOPMENT_TEAM = 2TW47NYAKG;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.prishabhanushali.tapsmart.TapSmart;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0638C4C82FA4568100D58D71 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.prishabhanushali.tapsmart.TapSmartTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TapSmart.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TapSmart";
+			};
+			name = Debug;
+		};
+		0638C4C92FA4568100D58D71 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.prishabhanushali.tapsmart.TapSmartTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TapSmart.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TapSmart";
+			};
+			name = Release;
+		};
+		0638C4CB2FA4568100D58D71 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.prishabhanushali.tapsmart.TapSmartUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TapSmart;
+			};
+			name = Debug;
+		};
+		0638C4CC2FA4568100D58D71 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.prishabhanushali.tapsmart.TapSmartUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TapSmart;
+			};
+			name = Release;
+		};
+		0638C52E2FAAFB3700D58D71 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = TapSmartWidget/TapSmartWidget.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2TW47NYAKG;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TapSmartWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = TapSmartWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.prishabhanushali.tapsmart.TapSmart.TapSmartWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0638C52F2FAAFB3700D58D71 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = TapSmartWidget/TapSmartWidget.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2TW47NYAKG;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TapSmartWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = TapSmartWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.prishabhanushali.tapsmart.TapSmart.TapSmartWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0638C49B2FA4567E00D58D71 /* Build configuration list for PBXProject "TapSmart" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0638C4C22FA4568100D58D71 /* Debug */,
+				0638C4C32FA4568100D58D71 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0638C4C42FA4568100D58D71 /* Build configuration list for PBXNativeTarget "TapSmart" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0638C4C52FA4568100D58D71 /* Debug */,
+				0638C4C62FA4568100D58D71 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0638C4C72FA4568100D58D71 /* Build configuration list for PBXNativeTarget "TapSmartTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0638C4C82FA4568100D58D71 /* Debug */,
+				0638C4C92FA4568100D58D71 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0638C4CA2FA4568100D58D71 /* Build configuration list for PBXNativeTarget "TapSmartUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0638C4CB2FA4568100D58D71 /* Debug */,
+				0638C4CC2FA4568100D58D71 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0638C52D2FAAFB3700D58D71 /* Build configuration list for PBXNativeTarget "TapSmartWidgetExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0638C52E2FAAFB3700D58D71 /* Debug */,
+				0638C52F2FAAFB3700D58D71 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		065A96DF2FB4151000A3DB0D /* XCRemoteSwiftPackageReference "plaid-link-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/plaid/plaid-link-ios";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.4.7;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		065A96E02FB4151000A3DB0D /* LinkKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 065A96DF2FB4151000A3DB0D /* XCRemoteSwiftPackageReference "plaid-link-ios" */;
+			productName = LinkKit;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 0638C4982FA4567E00D58D71 /* Project object */;
+}
